@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chloe Hargreaves">
+    <meta name="description" content="Lochquarry Outdoor Centre Staff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lochquarry Outdoor Centre - Staff</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 2em;
+        }
+        .staff-content {
+            background: url('images/hero-background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4em 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+        }
+        .staff-content h1 {
+            color: #003366; 
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .staff-content p {
+            color: #003366; 
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .staff-card {
+            background-color: white;
+            margin: 1em;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+            text-align: center;
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .staff-card:hover {
+            transform: scale(1.05);
+        }
+        .staff-card img {
+            width: 100px; 
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #4CAF50; 
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+            margin-bottom: 10px;
+        }
+        .staff-details h2 {
+            color: #4CAF50; 
+            margin: 0;
+        }
+        .staff-details p {
+            margin: 0;
+        }
+        .staff-details p span {
+            color: red; 
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.jpg" alt="Lochquarry Outdoor Centre">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="water.html">Water</a></li>
+            <li><a href="land.html">Land</a></li>
+            <li><a href="rope.html">Rope</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="staff-content">
+            <h1>Meet the Staff</h1>
+            <p>Meet the team that enjoys making your day at Lochquarry Outdoor Centre!</p>
+        </section>
+        <section class="cards">
+            <div class="staff-card">
+                <div class="staff-image">
+                    <img src="images/Ronaldo.webp" alt="Robbie Elliot">
+                </div>
+                <div class="staff-details">
+                    <h2>Robbie Elliot</h2>
+                    <p><span>Senior Instructor: Land</span></p>
+                    <p>Robbie is responsible for overseeing all of the land-based activities.</p>
+                    <p>Favourite Activity: Hillwalking in the beautiful Scottish highlands</p>
+                </div>
+            </div>
+            <div class="staff-card">
+                <div class="staff-image">
+                    <img src="images/Samantha.webp" alt="Claire Jack">
+                </div>
+                <div class="staff-details">
+                    <h2>Claire Jack</h2>
+                    <p><span>Centre Manager</span></p>
+                    <p>She is in charge of the overall running of the centre and all of its activities.</p>
+                    <p>Favourite Activity: Pole Climb!</p>
+                </div>
+            </div>
+            <div class="staff-card">
+                <div class="staff-image">
+                    <img src="images/Messi.webp" alt="Marion Hunter">
+                </div>
+                <div class="staff-details">
+                    <h2>Marion Hunter</h2>
+                    <p><span>Centre Administrator</span></p>
+                    <p>Marion is responsible for taking bookings and arranging activity slots for groups.</p>
+                    <p>Favourite Activity: Making sure everyone has a great time when they visit Lochquarry</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; By Chloe Hargreaves - 2024 Lochquarry Outdoor Centre</p>
+    </footer>
+</body>
+</html>

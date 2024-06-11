@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chloe Hargreaves">
+    <meta name="description" content="Land Activities - Lochquarry Outdoor Centre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Activities - Lochquarry Outdoor Centre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 2em;
+        }
+        .hero {
+            background: url('images/Group.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4em 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+        }
+        .hero h1 {
+            color: #003366; 
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .activity {
+            background-color: white;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+        }
+        .activity h2 {
+            color: #4CAF50; 
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 1em;
+        }
+        .default-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .default-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.jpg" alt="Lochquarry Outdoor Centre Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="water.html">Water</a></li>
+            <li><a href="land.html">Land</a></li>
+            <li><a href="rope.html">Rope</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h1>Land Based Activities</h1>
+        </section>
+        <section class="activity">
+            <h2>Hillwalking</h2>
+            <p>From short walks around the site to Munro-bagging expeditions, Lochquarry has it all! Walks can be tailored to suit any age or experience of groups and can last from one hour to all day adventures. Max group size 12. Ages 6+</p>
+        </section>
+        <section class="activity">
+            <h2>Archery</h2>
+            <p>Are you the next Robin Hood? Learn to hold a bow and fire an arrow and take part in fast and fun shootout competitions. Max group size 6. Ages 6+</p>
+        </section>
+        <section class="activity">
+            <h2>Orienteering</h2>
+            <p>Set in the centre’s grounds, find all the markers and make it back in time to show off your superior navigation knowledge. Groups of 2+, one map per group. Ages 6+</p>
+        </section>
+        <div class="button-container">
+            <a href="water.html" class="default-button">
+                <img src="images/Kayak.jpg" alt="Water Activities" class="button-image">
+                <div class="button-text">Explore Water Activities</div>
+            </a>
+            <a href="rope.html" class="default-button">
+                <img src="images/Abseiling.jpg" alt="Rope Activities" class="button-image">
+                <div class="button-text">Explore Rope Activities</div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Designed by Chloe Hargreaves 2024</p>
+    </footer>
+</body>
+</html>

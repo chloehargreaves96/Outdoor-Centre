@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chloe Hargreaves">
+    <meta name="description" content="Land Activities - Lochquarry Outdoor Centre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rope Activities - Lochquarry Outdoor Centre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        .hero {
+            background: url('images/Abseiling.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4em 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+        }
+        .activity {
+            background-color: white;
+            margin: 1em 0;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+        }
+        .activity h2 {
+            color: #4CAF50; 
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .default-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 0 10px;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .default-button:hover {
+            background-color: #45a049;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .button-image {
+            width: 150px; 
+            height: auto;
+            display: block;
+            position: relative;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .button-text {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.jpg" alt="Lochquarry Outdoor Centre Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="water.html">Water</a></li>
+            <li><a href="land.html">Land</a></li>
+            <li><a href="rope.html">Rope</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h1>Rope Based Activities</h1>
+        </section>
+        <section class="activity">
+            <h2>Climbing</h2>
+            <p>Scale the highs of one of the local quarry slabs. Max group size 8. Ages 8+</p>
+        </section>
+        <section class="activity">
+            <h2>Abseiling</h2>
+            <p>Take the scary step and abseil from the top of one of the local quarry slabs. There is a lovely view... if you are brave enough to look down! Max group size 8. Ages 8+</p>
+        </section>
+        <section class="activity">
+            <h2>Pole Climb</h2>
+            <p>Ever wondered how telephone engineers get to the top of the telephone poles? Well, here’s your chance to find out. Max group size 8. Ages 8+</p>
+        </section>
+        <div class="button-container">
+            <a href="water.html" class="default-button">
+                <img src="images/Kayak.jpg" alt="Water Activities" class="button-image">
+                <div class="button-text">Explore Water Activities</div>
+            </a>
+            <a href="land.html" class="default-button">
+                <img src="images/Hills.jpg" alt="Land Activities" class="button-image">
+                <div class="button-text">Explore Land Activities</div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Designed by Chloe Hargreaves 2024</p>
+    </footer>
+</body>
+</html>

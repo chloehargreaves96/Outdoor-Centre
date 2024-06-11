@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    max-width: 100%;
+    background-color: #f4f4f4;
+}
+
+header, nav, footer {
+    padding: 16px;
+}
+
+header img {
+    width: 250px;
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.hero, .products-hero, .services-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.hero h1, .products-hero h1, .services-hero h1 {
+    font-size: 50px;
+    color: #003366;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cards {
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.card-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-content p {
+    padding: 16px;
+}
+
+.review {
+    padding: 20px 200px;
+}
+
+.review h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.review > p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.review-content {
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 60px 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-content p::before {
+    position: absolute;
+    content: "\201C";
+    top: 10px;
+    left: 20px;
+    font-size: 40px;
+    color: red;
+}
+
+.review-content p::after {
+    position: absolute;
+    content: "\201D";
+    font-size: 40px;
+    bottom: 10px;
+    right: 20px;
+    color: red;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.product-image {
+    display: block;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.product-content {
+    padding: 16px;
+}
+
+.product-content h2 {
+    padding-bottom: 16px;
+}
+
+.product-content p {
+    text-align: justify;
+    padding-bottom: 16px;
+}
+
+.default-button {
+    padding: 10px 16px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.default-button:hover {
+    background-color: #45a049;
+}
+
+.services-hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/services-hero.jpg');
+}
+
+.staff-image img {
+    display: block;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.bk-red {
+    box-shadow: 15px 18px 33px 0px rgba(248, 159, 159, 0.5);
+}
+
+.bk-blue {
+    box-shadow: 15px 18px 33px 0px rgba(159, 198, 248, 0.5);  
+}
+
+.bk-green {
+    box-shadow: 15px 18px 33px 0px rgba(159, 248, 159, 0.5);
+}
+
+.contact {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    padding: 20px;
+}
+
+.map {
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 40%;
+}
+
+iframe {
+    width: 100%;
+    display: block;
+}
+
+.form {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    font-size: 20px;
+    background-color: aqua;
+    border: none;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(159, 248, 248);    
+}

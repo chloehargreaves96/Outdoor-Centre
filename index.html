@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chloe Hargreaves">
+    <meta name="description" content="Lochquarry Outdoor Centre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lochquarry Outdoor Centre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 2em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .hero {
+            background: url('images/hero-background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4em 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+        }
+        .hero h1 {
+            color: #003366; 
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .card {
+            background-color: white;
+            margin: 1em;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .card-content h2 {
+            color: #333;
+        }
+        .card-content p {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.jpg" alt="Lochquarry Outdoor Centre">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="water.html">Water</a></li>
+            <li><a href="land.html">Land</a></li>
+            <li><a href="rope.html">Rope</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h1>LOCHQUARRY OUTDOOR CENTRE</h1>
+        </section>
+        <section class="cards">
+            <div class="card">
+                <a href="water.html">
+                    <div class="card-image">
+                        <img src="images/Kayak.jpg" alt="Water Activities">
+                    </div>
+                    <div class="card-content">
+                        <h2>WATER ACTIVITIES</h2>
+                        <p>Discover our exciting water activities!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="land.html">
+                    <div class="card-image">
+                        <img src="images/Hills.jpg" alt="Land Activities">
+                    </div>
+                    <div class="card-content">
+                        <h2>LAND ACTIVITIES</h2>
+                        <p>Explore our adventurous land activities!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="rope.html">
+                    <div class="card-image">
+                        <img src="images/Abseiling.jpg" alt="Rope Activities">
+                    </div>
+                    <div class="card-content">
+                        <h2>ROPE ACTIVITIES</h2>
+                        <p>Check out our thrilling rope activities!</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; By Chloe Hargreaves - 2024 Lochquarry Outdoor Centre</p>
+    </footer>
+</body>
+</html>
